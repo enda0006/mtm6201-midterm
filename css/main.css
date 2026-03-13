@@ -13,3 +13,22 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--black);
+  background-color: var(--bg);
+}
+
+/* Lato is used for nav and headings */
+h1,
+h2,
+h3,
+.nav-list a,
+.section-label,
+.btn {
+  font-family: "Lato", sans-serif;
+}
