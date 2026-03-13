@@ -1,3 +1,4 @@
+/* I put all my main colors and layout values here so I can reuse them easily later */
 :root {
   --white: #ffffff;
   --black: #000000;
@@ -31,4 +32,22 @@ h3,
 .section-label,
 .btn {
   font-family: "Lato", sans-serif;
+}
+
+/* Image should scale with their container so they stay responsive */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Wrapper keeps content centered and prevents it from stretching too wide */
+.wrapper {
+  width: min(100% - 2rem, var(--max-width));
+  margin-inline: auto;
 }
