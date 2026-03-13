@@ -1,0 +1,15 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gold: #d69e3d;
+  --gold-dark: #966f2c;
+  --bg: #f3f0e9;
+  --max-width: 1200px;
+}
+
+/* Reset box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
