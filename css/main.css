@@ -372,3 +372,13 @@ blockquote {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+/* Footer */
+
+site-footer {
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
