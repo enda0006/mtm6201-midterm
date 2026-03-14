@@ -80,7 +80,7 @@ a {
 }
 /* header */
 
-/* on small screen i stack the logo and naigation vertically using flex items */
+/* on mobile screen i stack the logo and naigation vertically using flexbox */
 .site-header {
   background-color: var(--black);
   padding: 1rem 0;
@@ -110,7 +110,7 @@ a {
 }
 
 
-/* when i use hover the links transition to the gold color from the design */
+/* when i use hover the links transition to the gold color */
 .nav-list a {
   color: var(--white);
   text-transform: uppercase;
@@ -134,7 +134,7 @@ a {
   color: var(--white);
 }
 
-/* i want the hero to sit vertacally centered just like the exaple image so i am using flexbox */
+/* i want the hero to sit vertacally centered just like the exaple image so i am using flexbox to achive that */
 .hero-content {
   min-height: 85vh;
   display: flex;
@@ -270,7 +270,7 @@ p {
   display: block;
 }
 
-/* stacking feature cards vertically for smaller screen */
+/* stacking feature cards vertically for mobile screen */
 .feature-grid {
   display: grid;
   gap: 2rem;
