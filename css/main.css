@@ -304,3 +304,25 @@ p {
   text-align: center;
 }
 
+/* About sectioin */
+
+.about-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.about-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Making the about text area flexible so I can align the button better */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-content .btn {
+  align-self: flex-start;
+}
