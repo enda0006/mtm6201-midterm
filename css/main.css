@@ -266,3 +266,21 @@ p {
   object-fit: cover;
   display: block;
 }
+
+/* stacking feature cards vertically for smaller screen */
+.feature-grid {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* this for centering content inside feacher card */
+.feature-card {
+  text-align: center;
+}
+
+/* Elarging icons */
+.feature-card img {
+  width: 150px;
+  margin: 0 auto 1rem;
+}
