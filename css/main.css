@@ -382,3 +382,53 @@ site-footer {
   padding: 1.25rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+/* media quiery */
+
+/*  Tablet layout */
+
+@media (min-width: 768px) {
+
+  h1 { font-size: 2.986rem; }
+  h2 { font-size: 2.488rem; }
+  h3 { font-size: 1.728rem; }
+
+  /* header switches to horizontal layout */
+  .header-flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* gallery layout */
+  .gallery-grid {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(2, 200px);
+  }
+
+  .gallery-main {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  /* fature cards appear in three columns */
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* CTA cards move side by side */
+  .cta-grid {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  /* about section becomes two columns */
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  /* testimonials become three columns */
+  .testimonial-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
