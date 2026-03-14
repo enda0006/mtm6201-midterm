@@ -284,3 +284,23 @@ p {
   width: 150px;
   margin: 0 auto 1rem;
 }
+
+/* CTA section */
+
+/* adding dark background image with overlay */
+.cta-section {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)),
+    url("../images/coffee-shop.jpeg") center / cover no-repeat;
+  color: var(--white);
+}
+
+.cta-grid {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.cta-card {
+  text-align: center;
+}
+
