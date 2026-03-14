@@ -164,3 +164,22 @@ h3 {
 p {
   margin: 0 0 1rem;
 }
+
+/* this label text appers above some heading like "welcome"and "about us" */
+.section-label {
+  margin-bottom: 0.5rem;
+  color: var(--gold);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.hero-content p {
+  max-width: 42rem;
+  margin: 0 auto 1.75rem;
+}
+
