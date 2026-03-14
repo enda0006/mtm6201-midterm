@@ -243,3 +243,26 @@ p {
   border-color: var(--gold);
 }
 
+/* Gallery layout for mobile */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.gallery-main {
+  grid-column: 1 / 3;
+  height: 28rem;
+}
+
+.gallery-grid img:not(.gallery-main) {
+  height: 12rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
