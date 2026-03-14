@@ -326,3 +326,49 @@ p {
 .about-content .btn {
   align-self: flex-start;
 }
+
+/* Testimonials */
+
+/* testimonials background */
+.testimonials {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.testimonial-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.testimonial-card {
+  position: relative; /* position relative lets me place the quote text on top of the image */
+  overflow: hidden;
+  min-height: 420px;
+}
+
+/* Making the testimonial images fill the card area */
+.testimonial-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* gradient overlay so the text remains readable */
+.testimonial-text {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 1.25rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+}
+
+blockquote {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+}
+
+.testimonial-name {
+  margin: 0;
+  color: var(--gold);
+  font-weight: 700;
+  text-transform: uppercase;
+}
