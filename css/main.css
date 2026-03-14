@@ -73,3 +73,15 @@ a {
 .skip-link:focus {
   top: 1rem;
 }
+
+/* this is for a dark header bar at the top of the page */
+.site-header {
+  background-color: var(--black);
+  padding: 1rem 0;
+}
+
+/* on small screen i stack the logo and naigation vertically using flex items */
+.site-header {
+  background-color: var(--black);
+  padding: 1rem 0;
+}
