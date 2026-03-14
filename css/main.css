@@ -73,6 +73,7 @@ a {
 .skip-link:focus {
   top: 1rem;
 }
+/* header */
 
 /* this is for a dark header bar at the top of the page */
 .site-header {
@@ -84,4 +85,38 @@ a {
 .site-header {
   background-color: var(--black);
   padding: 1rem 0;
+}
+
+/* This is to keep the logo at a consistent size */
+.logo-link img {
+  width: 220px;
+}
+
+/* Navigation */
+
+/* im using flexbox so navigation links sit next to each other */
+.nav-list {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* navigation styling */
+.nav-list {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* when i use hover the links transition to the gold color from the design */
+.nav-list a {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
 }
