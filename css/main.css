@@ -120,3 +120,22 @@ a {
   font-size: 0.9rem;
   transition: color 0.3s ease;
 }
+
+/* Hero section */
+
+/* hero background image with a dark overlay so white text can be readable */
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("../images/hero-background.jpg") center / cover no-repeat;
+  color: var(--white);
+}
+
+/* i want the hero to sit vertacally centered just like the exaple image so i am using flexbox */
+.hero-content {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
