@@ -213,7 +213,7 @@ p {
 .btn-light:focus {
   background-color: var(--gold);
   border-color: var(--white);
-  color: var(--black);
+  color: var(--white);
 }
 
 /* Ghost style button with transparent background */
@@ -242,7 +242,7 @@ p {
 .btn-dark:hover,
 .btn-dark:focus {
   background-color: var(--gold);
-  color: var(--black);
+  color: var(--white);
   border-color: var(--gold);
 }
 
